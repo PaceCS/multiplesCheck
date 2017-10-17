@@ -1,6 +1,6 @@
 # multiplesCheck()
 
-In this assignment, you will be creating a function **multiplesCheck**.  The input to **multiplesCheck** will be a number.  Your goal is to examine this input and determine whether it is a multiple of 3, multiple of 5, or neither.  You will then print the input to the console and whether the input is even or odd.
+In this assignment, you will be creating a function **multiplesCheck**.  The input to **multiplesCheck** will be a number.  Your goal is to examine this input and determine whether it is a multiple of 3, a multiple of 5, or neither.  You will then print the input to the console and whether the input is a multiple of 3, a multiple of 5, both, or neither.
 
 ### Examples:
 
