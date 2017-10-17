@@ -17,6 +17,8 @@ Your number is a multiple of 3 but not a multiple of 5.
 ```
 ---
 
+Input: 
+
 ```
 5
 ```
@@ -26,6 +28,7 @@ Output:
 You entered 5.
 Your number is a multiple of 5 but not a multiple of 3.
 ```
+
 ---
 
 Input: 
@@ -39,6 +42,8 @@ Output:
 You entered 7.
 Your number is not a multiple of 3 or 5.
 ```
+
+---
 
 ```
 15
