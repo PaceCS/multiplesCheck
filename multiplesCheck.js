@@ -1,6 +1,34 @@
 // multiplesCheck takes an input n and determines if it a multiple of 3, multiple of 5, or neither
 
+function multiplesCheck(n) {
+    let div3;
+    let div5;
 
+    // First, fill in the condition to check to see if it is divisible by 3;
+    if  (/* Put condition here */) {
+        div3 = true;
+    } else {
+        div3 = false;
+    }
+
+    // Next,  fill in the condition to check to see if it is divisible by 5;
+    if  (/* Put condition here */) {
+        div5 = true;
+    } else {
+        div5 = false;
+    }
+
+    // Now use these values to give the appropriate output
+    if (div3 && div5) {
+        console.log();
+    } else if (div3) {
+        console.log();
+    } else if (div5) {
+        console.log();
+    } else {
+        console.log();
+    }
+}
 
 
 
