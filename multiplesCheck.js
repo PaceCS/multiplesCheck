@@ -1,6 +1,5 @@
-// multiplesCheck takes an input n and determines if it a multiple of 3, multiple of 5, or neither
-
-function multiplesCheck(n) {
+// multiplesCheck takes an input userInput and determines if it a multiple of 3, multiple of 5, or neither
+function multiplesCheck(userInput) {
     let div3;
     let div5;
 
