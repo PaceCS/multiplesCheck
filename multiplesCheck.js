@@ -32,7 +32,11 @@ function multiplesCheck(userInput) {
 
 
 
-
+//Try out your function here.
+multiplesCheck(2);
+multiplesCheck(3);
+multiplesCheck(10);
+multiplesCheck(15);
 
 
 
@@ -67,7 +71,7 @@ console.log = function log(d) {
     out.push(d);
 };
 multiplesCheck(2);
-printme('Testing...');
+printme('\n Testing...');
 printme(`\t did you properly return the user input?\t ${out[0] == 'You entered 2.'} `);
 const a = [3.1, -3, 9, 11, 10, 45];
 for (let i = 0; i < a.length; i += 1) {
