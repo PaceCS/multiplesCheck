@@ -17,6 +17,9 @@ function multiplesCheck(userInput) {
         div5 = false;
     }
 
+    // Remind the user of what they entered
+    console.log();
+
     // Now use these values to give the appropriate output
     if (div3 && div5) {
         console.log();
@@ -79,11 +82,7 @@ for (let i = 0; i < a.length; i += 1) {
     multiplesCheck(a[i]);
     const t3 = a[i] % 3 == 0;
     const t5 = a[i] % 5 == 0;
-    if (parseInt(a[i]) != a[i]) {
-        printme(`\t did you properly return a statement for non-integer values?\t ${out[1] == 'Your input is not an integer.'}`);
-    } else if (a[i] < 0) {
-        printme(`\t did you properly return a statement for negative values?\t ${out[1] == 'Your number is not a positive number.'}`);
-    } else if (!t5) {
+    if (!t5) {
         if (t3) {
             printme(`\t did you properly return a statement for values that are multiples of 3 but not of 5?\t ${out[1] == 'Your number is a multiple of 3 but not a multiple of 5.'}`);
         } else {
